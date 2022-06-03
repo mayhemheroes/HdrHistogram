@@ -1,0 +1,4 @@
+project: PROJECT
+target: jazzer_driver
+cmds:
+- cmd: /out/jazzer_driver

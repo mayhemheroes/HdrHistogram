@@ -1,0 +1,8 @@
+project: HdrHistogram
+target: jazzer_driver
+cmds:
+  - cmd: /mayhem/jazzer_driver
+    env:
+      LD_LIBRARY_PATH: /opt/toolchains/jvm/jdk/lib/server:/mayhem
+    libfuzzer: true
+    timeout: 90

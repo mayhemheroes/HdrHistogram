@@ -1,0 +1,8 @@
+project: HdrHistogram
+target: HdrHistogram.jar
+cmds:
+  - cmd: /mayhem/HdrHistogram.jar
+    env:
+      LD_LIBRARY_PATH: /opt/toolchains/jvm/jdk/lib/server:/mayhem
+    libfuzzer: true
+    timeout: 90

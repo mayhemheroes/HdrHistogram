@@ -1,0 +1,6 @@
+project: HdrHistogram
+target: jazzer_driver
+cmds:
+  - cmd: /mayhem/jazzer_driver
+    libfuzzer: true
+    timeout: 90

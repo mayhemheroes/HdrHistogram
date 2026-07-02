@@ -1,0 +1,6 @@
+project: HdrHistogram
+target: HdrHistogram_jar
+cmds:
+  - cmd: /mayhem/HdrHistogram.jar
+    libfuzzer: true
+    timeout: 90

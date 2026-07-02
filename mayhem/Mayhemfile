@@ -1,0 +1,6 @@
+project: HdrHistogram
+target: LogReaderWriterFuzzer
+cmds:
+  - cmd: /mayhem/LogReaderWriterFuzzer
+    libfuzzer: true
+    timeout: 90
